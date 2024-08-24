@@ -1354,15 +1354,20 @@ footer .credits a {
   }
 }
 
+#home {
+  background-image: url('../img/test.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
   #home {
-    background-image: url('../img/test.png'); /* Gunakan path relatif jika gambar di folder public */
+    background-image: url('../img/test.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
-  .back-to-top {
-    bottom: 15px;
-  }
 }
+
 

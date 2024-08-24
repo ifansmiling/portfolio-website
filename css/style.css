@@ -1356,7 +1356,7 @@ footer .credits a {
 
 @media (max-width: 768px) {
   #home {
-    background-image: url('img/test.png');
+    background-image: url('https://ifansultoni.vercel.app/img/test.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

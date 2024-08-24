@@ -1355,11 +1355,14 @@ footer .credits a {
 }
 
 #home {
-  background-image: url('../img/test.png');
+  background-image: url('/img/test.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100vh; /* Pastikan elemen memiliki tinggi minimum */
+  width: 100%; /* Pastikan elemen memiliki lebar penuh */
 }
+
 
 @media (max-width: 768px) {
   #home {
@@ -1369,5 +1372,4 @@ footer .credits a {
     background-repeat: no-repeat;
   }
 }
-
 

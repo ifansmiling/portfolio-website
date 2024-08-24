@@ -1356,7 +1356,7 @@ footer .credits a {
 
 @media (max-width: 768px) {
   #home {
-    background-image: url('https://ifansultoni.vercel.app/img/test.png');
+    background-image: url('../img/test.png'); /* Gunakan path relatif jika gambar di folder public */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1365,3 +1365,4 @@ footer .credits a {
     bottom: 15px;
   }
 }
+

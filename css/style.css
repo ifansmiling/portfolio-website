@@ -788,11 +788,13 @@ a:hover {
   margin: 0; /* Menghilangkan margin yang tidak diperlukan */
 }
 
-/* Menambahkan pseudo-element untuk menyamakan panjang baris teks */
 .service-box .s-description::after {
   content: "";
   display: inline-block;
   width: 100%;
+}
+.justify-text {
+  text-align: justify !important; /* Menyelaraskan teks rata kanan kiri */
 }
 
 /*======================================
